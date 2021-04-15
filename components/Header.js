@@ -1,5 +1,5 @@
 export default function Header({ title }) {
-  return <div className="Hero">
+  return <div>
   <div className="overlay"></div>
   <header>
     <div>
@@ -26,7 +26,7 @@ export default function Header({ title }) {
       <div className="card">
         <ul>
           <li>
-            <h2>Code</h2>
+            <h2>CODE</h2>
           </li>
           <li>
             <i className="fab fa-html5"></i> HTML
@@ -42,7 +42,7 @@ export default function Header({ title }) {
       <div className="card">
         <ul>
           <li>
-            <h2>Tools</h2>
+            <h2>TOOLS</h2>
           </li>
           <li>
             <i className="fab fa-git"></i> Git/Hub
@@ -61,7 +61,7 @@ export default function Header({ title }) {
       <div className="card">
         <ul>
           <li>
-            <h2>Skills</h2>
+            <h2>SKILLS</h2>
           </li>
           <li>
             <i className="fas fa-project-diagram"></i> DNS
@@ -75,7 +75,7 @@ export default function Header({ title }) {
       <div className="card">
         <ul>
           <li>
-            <h2>Certs</h2>
+            <h2>CERTS</h2>
           </li>
           <li>
             <a href="https://www.freecodecamp.org/certification/fcc78f3a6da-2bd8-4da7-b6cc-31e4110324b2/responsive-web-design">
