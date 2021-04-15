@@ -9,14 +9,14 @@ export default function Home() {
         <title>Dev Portfolio - Jonathan Eugster</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="keywords" content="WebDev, Portfolio, Resume, Jonathan Eugster"/>
-        
+
       </Head>
 
       <main>
         <Header/>
       </main>
 
-      <Footer />
+      {/*<Footer />*/}
     </div>
   )
 }
