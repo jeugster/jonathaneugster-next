@@ -45,17 +45,17 @@ export default function Header({ title }) {
             <h2>TOOLS</h2>
           </li>
           <li>
-            <i className="fab fa-git"></i> Git/Hub
+            <i className="fab fa-git"></i> Git
           </li>
           <li>
             <i className="fab fa-windows"></i> VSCode
           </li>
-          <li>
+          {/* <li>
             <i className="fab fa-docker"></i> Docker
           </li>
           <li>
             <i className="fas fa-dharmachakra"></i> K8s
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="card">
@@ -80,6 +80,11 @@ export default function Header({ title }) {
           <li>
             <a href="https://www.freecodecamp.org/certification/fcc78f3a6da-2bd8-4da7-b6cc-31e4110324b2/responsive-web-design">
               Responsive Web Design
+            </a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org/certification/fcc78f3a6da-2bd8-4da7-b6cc-31e4110324b2/javascript-algorithms-and-data-structures">
+              JavaScript Data Structures & Algorithms
             </a>
           </li>
         </ul>
