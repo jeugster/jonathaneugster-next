@@ -1,6 +1,5 @@
 export default function Header({ title }) {
   return <div>
-  <div className="overlay"></div>
   <header>
     <div>
       <h1 id="headerh1">Jonathan Eugster</h1>
@@ -103,10 +102,5 @@ export default function Header({ title }) {
       </div>
     </section>
   </main>
-  <footer>
-    <div className="copyright">
-      Copyright 2021 <span id="datetime"></span>
-    </div>
-  </footer>
 </div>
 }

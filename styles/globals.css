@@ -10,14 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-.container {
-  height: 110vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .overlay {
   width: 100%;
   height: 100%;
@@ -72,13 +64,6 @@ footer {
   background-blend-mode: exclusion;
   opacity: 0.2;
   z-index: 0;
-}
-
-.copyright {
-  opacity: 1;
-  display: grid;
-  place-items: center;
-  padding: 0.25rem;
 }
 
 .like {
