@@ -3,3 +3,5 @@ module.exports = {
     webpack5: true,
   },
 }
+
+target: 'serverless'
