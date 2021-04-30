@@ -4,7 +4,9 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
+    
     <div className="container-fluid overlay">
+
       <Head>
         <title>Dev Portfolio - Jonathan Eugster</title>
         <link rel="icon" href="/favicon.ico" />
@@ -18,5 +20,6 @@ export default function Home() {
       <Footer/>
 
     </div>
+    
   )
 }
