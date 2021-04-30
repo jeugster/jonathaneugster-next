@@ -108,11 +108,13 @@ h2 {
 
 .card {
   flex: 1 1 10rem;
+  color: black;
 }
 
 .card > ul > li > a {
   text-decoration: underline;
   font-size: calc(0.9rem + 0.25vw);
+  color:tomato;
 }
 
 @keyframes gradient {
