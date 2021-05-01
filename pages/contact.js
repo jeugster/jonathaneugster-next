@@ -1,9 +1,7 @@
-
-
 export default function Contact() {
     return (
       <div>
-+       <ContactForm />
+        <ContactForm />
       </div>
     )
   }
