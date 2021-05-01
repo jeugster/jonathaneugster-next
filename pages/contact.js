@@ -1,7 +1,9 @@
-export default function Contact() {
-	return (
 
-	<div>Contact me!</div>
-	
-	)
-}
+
+export default function Contact() {
+    return (
+      <div>
++       <ContactForm />
+      </div>
+    )
+  }
