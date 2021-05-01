@@ -7,7 +7,7 @@ function Application({ Component, pageProps }) {
 }
 
 const tagManagerArgs = {
-  gtmId: 'GTM-PNX7XQD'
+  gtmId: 'GTM-PX5R9R4'
 }
 
 if (process.browser) {
