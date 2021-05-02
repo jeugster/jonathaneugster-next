@@ -2,23 +2,29 @@ import styled from 'styled-components'
 
 export default function Footer() {
 
-  const Footer = styled.div`
+  const Footer = styled.ul`
   position: fixed;
   display: flex;
   place-content: center;
-  text-align: right;
   bottom: 0;
   left: 0;
-  padding: 0 0.25rem 0 0.25rem;
+  padding: .25rem .25rem;
+  margin: 0;
   background: blue;
   background-blend-mode: exclusion;
-  opacity: 0.2;
+  opacity: 0.5;
   z-index: 0;
   font-size: calc(.75rem + 0.5vw);
+  width:auto;
+  color: white;
+  a {text-decoration: underline; 
+    margin: .25rem }
+  li {}
 `
   return (
       <Footer>
-         Copyright 2021 /_<a href="/contact">Contact</a>
+          <li>Copyright 2021</li>
+          <li><a href="/contact">Contact</a></li>
       </Footer>
   )
 }
