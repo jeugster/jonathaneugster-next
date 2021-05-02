@@ -10,7 +10,8 @@ export default function ContactForm() {
 	`
 
 	return (
-	  <ContactForm name="contact" action="/success" method="POST" data-netlify="true" className="form-control ">
+		<ContactForm>	
+	  	<form name="contact" action="/success" method="POST" data-netlify="true" className="form-control">
 		<p>
 		  <label htmlFor="yourname">
 			Name:
@@ -32,7 +33,7 @@ export default function ContactForm() {
 		<p>
 		  <button type="submit" className="btn btn-primary">Send</button>
 		</p>
+		</form>
 	  </ContactForm>
 	)
   }
-  
