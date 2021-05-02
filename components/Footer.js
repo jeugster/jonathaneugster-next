@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styled from 'styled-components'
 
 export default function Footer() {
@@ -24,7 +25,7 @@ export default function Footer() {
   return (
       <Footer>
           <li>Copyright 2021</li>
-          <li><a href="/contact">Contact</a></li>
+          <li><Link href="/contact">Contact</Link></li>
       </Footer>
   )
 }
