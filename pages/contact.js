@@ -1,16 +1,15 @@
-import ContactForm from '@components/ContactForm'
-import Head from '@components/Head'
 import Header from '@components/Header'
+import Nav from '@components/Nav'
+import ContactForm from '@components/ContactForm'
 import Footer from '@components/Footer'
 
-function Contact() {
-    return (
-      <div>
-        <Head/>
-        <Header/>
-        <ContactForm />
-        <Footer />
-      </div>
-    )
-  }
-export default Contact
+export default function Contact() {
+  return (
+    <div>
+      <Header/>
+      <Nav/>
+      <ContactForm />
+      <Footer />
+    </div>
+  )
+}

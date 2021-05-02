@@ -1,26 +1,16 @@
 import React from 'react'
+import Head from 'next/Head'
 
 export default function Header() {
-  return (
-  <header>
-    <div>
-      <h1 id="headerh1">Jonathan Eugster</h1>
-      <a className="profile-link" href="https://github.com/jeugster/">
-        github
-      </a>
-      {/*<a
-        className="profile-link youtube"
-        href="https://www.youtube.com/c/Redravendrone"
-      >
-        youtube
-      </a>*/}
-      <a
-        className="profile-link"
-        href="https://twitter.com/JonathanEugster"
-      >
-        twitter
-      </a>
-    </div>
-  </header>
-  )
+    return (
+        <div>
+            <Head>
+            <title>Dev Portfolio - Jonathan Eugster</title>
+            <link rel="icon" href="/favicon.ico" />
+            <meta name="keywords" content="WebDev, Portfolio, Resume, Jonathan Eugster"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <meta name="description" content="WebDev Portfolio and Resume for Jonathan Eugster"/> 
+            </Head>
+        </div>
+    )
 }
