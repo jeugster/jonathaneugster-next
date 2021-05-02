@@ -1,7 +1,9 @@
 export default function Success() {
     return (
 
-      <div>Form successfully submitted!</div>
-      
+      <div className="text-center ">
+        Form successfully submitted!
+      </div>
+
       )
   }  
