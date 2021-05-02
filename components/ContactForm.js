@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function ContactForm() {
 	return (
 	  <form name="contact" action="/success" method="POST" data-netlify="true">

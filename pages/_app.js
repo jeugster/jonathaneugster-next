@@ -1,9 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '@styles/globals.css'
 import TagManager from 'react-gtm-module'
+import Layout from "@components/Layout"
 
 function Application({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+  <Layout>
+    <Component {...pageProps} />
+  </Layout>
+  )
 }
 
 const tagManagerArgs = {
