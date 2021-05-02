@@ -3,10 +3,11 @@ export default function ContactForm() {
 
 	const ContactForm = styled.div`
 		margin: 5rem auto;
-		max-width: 500px;
+		max-width: 400px;
   		align-items: center;
 		height: auto;
-  		margin-bottom: 5rem;
+		display:flex;
+		
 	`
 
 	return (

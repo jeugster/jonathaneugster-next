@@ -1,9 +1,21 @@
+import styled from 'styled-components'
+
 export default function Nav() {
+
+  const Header = styled.header`
+    display: flex;
+    place-content: center;
+    margin: 1rem;
+    a.profile-link{
+      font-size: calc(1rem + 0.25vw)
+    }
+  `
+
   return (
-  <header>
+  <Header>
     <div className="overlay"></div>
     <div>
-      <h1 id="headerh1">Jonathan Eugster</h1>
+      <a href="/"><h1 id="headerh1">Jonathan Eugster</h1></a>
       <a className="profile-link" href="https://github.com/jeugster/">
         github
       </a>
@@ -20,6 +32,6 @@ export default function Nav() {
         twitter
       </a>
     </div>
-  </header>
+  </Header>
   )
 }

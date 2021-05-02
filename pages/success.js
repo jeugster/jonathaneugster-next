@@ -1,9 +1,18 @@
-export default function Success() {
-    return (
+import styled from 'styled-components'
 
-      <div className="text-center ">
-        Form successfully submitted!
-      </div>
+export default function Success() {
+  
+  const Success = styled.div`
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+  `
+
+  return (
+    
+
+        <Success>Form successfully submitted!</Success>
+     
 
       )
   }  

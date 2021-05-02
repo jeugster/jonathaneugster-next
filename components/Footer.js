@@ -14,10 +14,11 @@ export default function Footer() {
   background-blend-mode: exclusion;
   opacity: 0.2;
   z-index: 0;
+  font-size: calc(.75rem + 0.5vw);
 `
   return (
       <Footer>
-         Copyright 2021
+         Copyright 2021 /_<a href="/contact">Contact</a>
       </Footer>
   )
 }
