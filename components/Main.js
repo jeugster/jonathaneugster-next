@@ -63,7 +63,7 @@ export default function Main() {
                 </li>
                 <li>
                     <a href="https://www.freecodecamp.org/certification/fcc78f3a6da-2bd8-4da7-b6cc-31e4110324b2/javascript-algorithms-and-data-structures">
-                    JavaScript Data Structures & Algorithms
+                    JS Data Structures & Algorithms
                     </a>
                 </li>
                 </ul>
@@ -80,7 +80,7 @@ export default function Main() {
                 </li>
                 <li>
                     <a href="/contact">
-                    Contact Form
+                    contact form
                     </a>
                 </li>
                 </ul>

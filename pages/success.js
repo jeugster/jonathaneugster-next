@@ -9,10 +9,8 @@ export default function Success() {
   `
 
   return (
-    
-
-        <Success>Form successfully submitted!</Success>
-     
-
+        <Success>
+          <mark>Form successfully submitted!</mark>
+        </Success>
       )
   }  

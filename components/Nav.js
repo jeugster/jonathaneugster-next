@@ -13,7 +13,6 @@ export default function Nav() {
 
   return (
   <Header>
-    <div className="overlay"></div>
     <div>
       <a href="/"><h1 id="headerh1">Jonathan Eugster</h1></a>
       <a className="profile-link" href="https://github.com/jeugster/">
@@ -30,6 +29,12 @@ export default function Nav() {
         href="https://twitter.com/JonathanEugster"
       >
         twitter
+      </a>
+      <a
+        className="profile-link"
+        href="/contact"
+      >
+        contact
       </a>
     </div>
   </Header>
