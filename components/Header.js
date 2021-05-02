@@ -1,5 +1,7 @@
+import React from 'react'
+
 export default function Header() {
-  return <div>
+  return (
   <header>
     <div>
       <h1 id="headerh1">Jonathan Eugster</h1>
@@ -20,5 +22,5 @@ export default function Header() {
       </a>
     </div>
   </header>
-</div>
+  )
 }
