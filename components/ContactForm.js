@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 export default function ContactForm() {
 
-	const ContactForm = styled.form`
+	const ContactForm = styled.div`
 		margin: 5rem auto;
 		max-width: 500px;
   		align-items: center;
