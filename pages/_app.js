@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '@styles/globals.css'
 import TagManager from 'react-gtm-module'
-import Layout from "@components/Layout"
-import Head from "next/Head"
+import Layout from '@components/Layout'
+import Head from 'next/head'
 
 function Application({ Component, pageProps }) {
   return (
