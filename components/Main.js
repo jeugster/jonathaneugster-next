@@ -78,6 +78,11 @@ export default function Main() {
                     jonathan.eugster@gmail.com
                     </a>
                 </li>
+                <li>
+                    <a href="/contact">
+                    Contact Form
+                    </a>
+                </li>
                 </ul>
             </div>
             </section>

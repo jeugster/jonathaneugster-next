@@ -1,8 +1,17 @@
+import styled from 'styled-components'
 export default function ContactForm() {
+
+	const ContactForm = styled.form`
+		margin: 5rem auto;
+		max-width: 500px;
+  		align-items: center;
+		height: auto;
+  		margin-bottom: 5rem;
+	`
+
 	return (
-	  <form name="contact" action="/success" method="POST" data-netlify="true" className="form-control ">
+	  <ContactForm name="contact" action="/success" method="POST" data-netlify="true" className="form-control ">
 		<p>
- 		 
 		  <label htmlFor="yourname">
 			Name:
 		  </label> <br />
@@ -23,7 +32,7 @@ export default function ContactForm() {
 		<p>
 		  <button type="submit" className="btn btn-primary">Send</button>
 		</p>
-	  </form>
+	  </ContactForm>
 	)
   }
   
