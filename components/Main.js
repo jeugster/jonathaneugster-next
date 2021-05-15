@@ -18,6 +18,8 @@ export default function Main() {
       <li>
        <i className="fab fa-js"></i> JavaScript
       </li>
+      <li>
+       <i className=""></i>React</li>
      </ul>
     </div>
     <div className="card">
@@ -26,11 +28,13 @@ export default function Main() {
        <h2>TOOLS</h2>
       </li>
       <li>
-       <i className="fab fa-git"></i> Git
+       <i className="fab fa-git"></i>Git
       </li>
       <li>
-       <i className="fab fa-windows"></i> VSCode
-      </li>
+       <i className="fab fa-windows"></i>VSCode
+        </li>
+    <li><i className=""></i>Linux</li>
+    <li><i className=""></i>CLI</li>
       {/* <li>
                     <i className="fab fa-docker"></i> Docker
                 </li>
@@ -45,10 +49,10 @@ export default function Main() {
        <h2>SKILLS</h2>
       </li>
       <li>
-       <i className="fas fa-project-diagram"></i> DNS
+       <i className="fas fa-project-diagram"></i>CI/CD
       </li>
       <li>
-       <i className="fas fa-server"></i> Cloud
+       <i className="fas fa-server"></i>Cloud
       </li>
       <li></li>
      </ul>
