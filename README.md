@@ -5,6 +5,8 @@
 
 This is a [Next.js](https://nextjs.org/) v10.2 project hosted on Netlify, Mongodb Atlas, and Google App Engine. Styling for React is Styled Components, to allow style and logic to live in the same file. 
 
-Analytics uses Google Analytics through Google Tag Manager allowing changed and additions to third party scripts without redeployment.
+Analytics is Google Analytics through Google Tag Manager allowing changes and additions to third party scripts without redeployment.
 
 Responsive web design and static first priciples alongside Babel enable the site to work well across devices and browser versions.
+
+New versions of this site are tested and deployed on commit.
