@@ -1,5 +1,6 @@
 .body {
  color: white;
+ margin: 5vw;
 }
 
 .overlay {
@@ -24,7 +25,7 @@ main {
  display: flex;
  place-content: center;
  height: auto;
- margin: 5rem;
+ margin: 5vw;
 }
 
 .like {

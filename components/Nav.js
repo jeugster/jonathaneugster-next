@@ -21,6 +21,7 @@ export default function Nav() {
    font-size: 110%;
    font-style: oblique;
   }
+  margin: 5vw;
  `
 
  return (
