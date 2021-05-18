@@ -9,4 +9,4 @@ Analytics is Google Analytics through Google Tag Manager allowing changes and ad
 
 Responsive web design and static first priciples alongside Babel enable the site to work well across devices and browser versions.
 
-New versions of this site are tested and deployed on commit.
+New versions of this site are automatically tested and deployed on commit.
