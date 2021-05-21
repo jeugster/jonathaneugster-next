@@ -8,7 +8,7 @@ function Application({ Component, pageProps }) {
  return (
   <Layout>
    <Head>
-    <title>Dev Portfolio - Jonathan Eugster</title>
+    <title key="title">Dev Portfolio - Jonathan Eugster</title>
     <link rel="icon" href="/favicon.ico" />
     <meta
      name="keywords"
