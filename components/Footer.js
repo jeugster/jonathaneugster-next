@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 
@@ -28,10 +29,22 @@ export default function Footer() {
   <Footer>
    <li>Copyright 2021</li>
    <li>
-    <Link href="https://github.com/jeugster/next-portfolio">Repo</Link>
+    <Link href="https://github.com/jeugster/next-portfolio">
+     <a>Repo</a>
+    </Link>
    </li>
    <li>
-    <Link href="/contact">Contact</Link>
+    <Link href="/contact">
+     <a>Contact</a>
+    </Link>
+   </li>
+   <li>
+    <Link
+     href="https://jonathaneugster-strapi.herokuapp.com/admin
+"
+    >
+     <a>Login</a>
+    </Link>
    </li>
   </Footer>
  )

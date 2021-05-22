@@ -1,3 +1,4 @@
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import '@styles/globals.css'
 import TagManager from 'react-gtm-module'

@@ -1,3 +1,4 @@
+import React from 'react'
 import Link from 'next/link'
 
 export default function Main() {
@@ -19,7 +20,8 @@ export default function Main() {
        <i className="fab fa-js"></i> JavaScript
       </li>
       <li>
-       <i className=""></i>React</li>
+       <i className=""></i>React
+      </li>
      </ul>
     </div>
     <div className="card">
@@ -32,9 +34,13 @@ export default function Main() {
       </li>
       <li>
        <i className="fab fa-windows"></i>VSCode
-        </li>
-    <li><i className=""></i>Linux</li>
-    <li><i className=""></i>CLI</li>
+      </li>
+      <li>
+       <i className=""></i>Linux
+      </li>
+      <li>
+       <i className=""></i>CLI
+      </li>
       {/* <li>
                     <i className="fab fa-docker"></i> Docker
                 </li>
