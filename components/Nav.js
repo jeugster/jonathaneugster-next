@@ -11,7 +11,6 @@ export default function Nav() {
   }
   li {
    display: inline;
-   text-shadow: 0 0 2px #000000;
    opacity: 90%;
   }
   color: white;

@@ -42,7 +42,7 @@ ul {
 a {
  color: white;
  text-decoration-style: double;
- margin-right: 0.1em;
+ margin-right: 0.1rem;
 }
 
 a:hover {
@@ -50,11 +50,11 @@ a:hover {
 }
 
 h2 {
- font-size: calc(1.25em);
+ font-size: calc(1.25rem);
 }
 
 .profile-link {
- margin-right: 0.5em;
+ margin-right: 0.5rem;
 }
 
 .CV {
@@ -64,19 +64,20 @@ h2 {
 }
 
 .card {
- flex: 1 1 10em;
+ flex: 1 1 10rem;
  color: black;
- padding: 0.25em;
+ padding: 0.25rem;
  background:rgba(255, 255, 255, 0.7);
+ margin: .5vw;
 }
 
 .card > ul {
- padding: 1em;
+ padding:  0.25rem .5rem;
 }
 
 .card > ul > li > a {
  text-decoration: underline;
- font-size: calc(0.85em);
+ font-size: calc(0.85rem);
  color: tomato;
 }
 
