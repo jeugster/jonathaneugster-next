@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 export default function ContactForm() {
  const ContactForm = styled.div`
   margin: 5rem auto;
