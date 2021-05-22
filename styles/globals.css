@@ -67,6 +67,7 @@ h2 {
  flex: 1 1 10em;
  color: black;
  padding: 0.25em;
+ background:rgba(255, 255, 255, 0.7);
 }
 
 .card > ul {

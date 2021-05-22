@@ -11,6 +11,8 @@ export default function Nav() {
   }
   li {
    display: inline;
+   text-shadow: 0 0 2px #000000;
+   opacity: 90%;
   }
   color: white;
   h1 {
@@ -22,6 +24,10 @@ export default function Nav() {
    font-style: oblique;
   }
   margin: 5vw;
+  h1 {
+   text-shadow: 0 0 2px #000000;
+   opacity: 90%;
+  }
  `
 
  return (
