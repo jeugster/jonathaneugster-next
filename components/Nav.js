@@ -23,7 +23,7 @@ export default function Nav() {
    font-size: 110%;
    font-style: oblique;
   }
-  margin: 5vw;
+  margin: 1rem;
   h1 {
    text-shadow: 0 0 2px #000000;
    opacity: 90%;
