@@ -65,10 +65,16 @@ h2 {
 
 .card {
  flex: 1 1 10rem;
- color: black;
+ color: white;
  padding: 0.25rem;
  background:rgba(255, 255, 255, 0.7);
  margin: .5vw;
+ background: rgba( 255, 255, 255, 0.25 );
+ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+ backdrop-filter: blur( 1.0px );
+ -webkit-backdrop-filter: blur( 9.0px );
+ border-radius: 10px;
+ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .card > ul {
@@ -78,7 +84,7 @@ h2 {
 .card > ul > li > a {
  text-decoration: underline;
  font-size: calc(0.85rem);
- color: tomato;
+ color: rgb(255, 197, 71);
 }
 
 @keyframes gradient {
