@@ -39,10 +39,7 @@ export default function Footer() {
     </Link>
    </li>
    <li>
-    <Link
-     href="https://jonathaneugster-strapi.herokuapp.com/admin
-"
-    >
+    <Link href="http://api.jonathaneugster.com/admin/">
      <a>Login</a>
     </Link>
    </li>
