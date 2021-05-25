@@ -60,7 +60,7 @@ export default function Main() {
       <li>
        <i className="fas fa-server"></i>Cloud
       </li>
-      <li></li>
+      <li>Design</li>
      </ul>
     </div>
     <div className="card">

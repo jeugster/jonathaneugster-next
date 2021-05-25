@@ -41,9 +41,9 @@ export default function Nav() {
       <Link href="https://github.com/jeugster/">github</Link>
      </li>
      {/*<a className="profile-link youtube" href="https://www.youtube.com/c/Redravendrone">youtube</a>*/}
-     <li>
+     {/* <li>
       <Link href="https://twitter.com/JonathanEugster">twitter</Link>
-     </li>
+     </li> */}
      <li>
       <Link href="/contact">contact</Link>
      </li>

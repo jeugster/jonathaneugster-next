@@ -1,9 +1,8 @@
 module.exports = {
  future: {
-  poweredByHeader: false,
+  poweredByHeader: true,
   webpack5: true,
   reactStrictMode: true,
  },
 }
-
-target: 'serverless'
+;('serverless')
