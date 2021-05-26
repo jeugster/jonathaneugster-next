@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   <div>
    <div className="overlay"></div>
    <Nav />
-   {children}
+   <div className="main">{children}</div>
    <Footer />
   </div>
  )

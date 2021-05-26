@@ -6,7 +6,7 @@ export default function Nav() {
  const Header = styled.header`
   display: flex;
   place-content: center;
-  margin-top: 1rem;
+  margin-top: 5vw;
   a {
    font-size: calc(1rem + 0.25vw);
   }
@@ -23,7 +23,7 @@ export default function Nav() {
    font-size: 110%;
    font-style: oblique;
   }
-  margin: 1rem;
+  margin: 5vw;
   h1 {
    text-shadow: 0 0 2px #000000;
    opacity: 90%;

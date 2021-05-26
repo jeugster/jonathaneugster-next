@@ -1,10 +1,10 @@
 import React from 'react'
-import Main from '@components/Main'
+import Resume from '@components/Resume'
 
 export default function Home() {
  return (
   <div>
-   <Main />
+   <Resume />
   </div>
  )
 }
