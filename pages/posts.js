@@ -1,26 +1,19 @@
 import React from 'react'
+import Posts from '@components/Posts'
 import axios from 'axios'
-//import styled from 'styled-components'
 
-export default function Posts({ posts }) {
- console.log('Posts: ' + { posts })
+export default function PostsPage({ posts }) {
  return (
-  <div className="posts">
-   {posts &&
-    posts.map((post) => (
-     <div key={post.id}>
-      <h2>Title - {post.Title}</h2>
-      <p> Content - {post.Content}</p>
-     </div>
-    ))}
+  <div>
+   <Posts props={posts} />
   </div>
  )
 }
 
 export async function getStaticProps(context) {
- const res = await axios.get('http://api.jonathaneugster.com/graphql/posts')
- const posts = await res.data
+ const res = await axios.get('http://api.jonathaneugster.com/posts')
+
  return {
-  props: { posts },
+  props: { posts: res.data },
  }
 }
