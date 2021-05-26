@@ -5,7 +5,7 @@ import axios from 'axios'
 export default function Posts({ posts }) {
  console.log('Posts: ' + { posts })
  return (
-   <div className="posts">
+  <div className="posts">
    {posts &&
     posts.map((post) => (
      <div key={post.id}>
@@ -17,7 +17,7 @@ export default function Posts({ posts }) {
  )
 }
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
  const res = await axios.get('http://api.jonathaneugster.com/graphql/posts')
  const posts = await res.data
  return {
