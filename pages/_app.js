@@ -7,10 +7,12 @@ import SEO from '@components/SEO'
 
 function Application({ Component, pageProps }) {
  return (
-  <Layout>
+  <>
    <SEO />
-   <Component {...pageProps} />
-  </Layout>
+   <Layout>
+    <Component {...pageProps} />
+   </Layout>
+  </>
  )
 }
 

@@ -4,10 +4,10 @@ import Footer from '@components/Footer'
 
 export default function Layout({ children }) {
  return (
-  <div>
+  <div className="main">
    <div className="overlay"></div>
    <Nav />
-   <div className="main">{children}</div>
+   <div >{children}</div>
    <Footer />
   </div>
  )

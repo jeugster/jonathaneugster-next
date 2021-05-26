@@ -1,6 +1,10 @@
-.body {
+body {
  color: white;
- margin: 5vw;
+ max-width: max-content;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin:auto;
 }
 
 .overlay {
@@ -16,20 +20,9 @@
  filter: saturate(50%);
 }
 
-h2::first-letter {
- font-size: 130%;
-}
-
 main {
- z-index: 1;
- display: flex;
- place-content: center;
- height: 100%;
- margin: auto;
-}
-
-.like {
- height: auto;
+ max-width: 1200px;
+ margin: 1rem;
 }
 
 ul {
@@ -45,16 +38,13 @@ a {
 }
 
 a:hover {
- opacity: 0.7;
+ opacity: 0.8;
 }
 
 h2 {
- font-size: calc(1.25rem);
+ font-size: 1.25rem;
 }
 
-.profile-link {
- margin-right: 0.5rem;
-}
 
 .CV {
  display: flex;
@@ -62,14 +52,13 @@ h2 {
  justify-content: center;
  place-content: center;
  height: auto;
- margin: 5vw;
+ margin: calc(2rem - .5vw);
 }
 
 .card {
  flex: 1 1 10rem;
  color: white;
  padding: 0.4rem;
- background: rgba(255, 255, 255, 0.7);
  margin: 0.5vw;
  background: rgba(255, 255, 255, 0.25);
  box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);

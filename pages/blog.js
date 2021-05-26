@@ -2,12 +2,12 @@ import React from 'react'
 import Posts from '@components/Posts'
 import axios from 'axios'
 
-export default function PostsPage(props) {
+export default function Blog(props) {
  //console.log(posts)
  return (
-  <div>
+  <>
    <Posts posts={props.posts} />
-  </div>
+  </>
  )
 }
 
