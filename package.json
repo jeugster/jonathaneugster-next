@@ -5,8 +5,7 @@
  "scripts": {
   "dev": "next dev",
   "build": "next build",
-  "export": "next export",
-  "postbuild": "next-on-netlify"
+  "export": "next export"
  },
  "dependencies": {
   "@fortawesome/fontawesome-svg-core": "^1.2.35",
