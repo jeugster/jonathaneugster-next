@@ -4,12 +4,10 @@
 [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-This is a [Next.js](https://nextjs.org/) v10.2 project hosted on Netlify, Mongodb Atlas, and Google App Engine. Styling for React is Styled Components, to allow style and logic to live in the same file. 
+This is a [Next.js](https://nextjs.org/) project hosted on Netlify, Mongodb Atlas, and Heroku. Styling for React is Styled Components, but CSS modules and Tailwind are also in use to evaluate.
 
-Analytics is Google Analytics through Google Tag Manager allowing changes and additions to third party scripts without redeployment.
+Analytics tags are controlled through Google Tag Manager allowing changes and additions to third party scripts without redeployment. Currently only Google Analytics is active.
 
-Responsive web design and static first priciples alongside Babel enable the site to work well across devices and browser versions.
+Responsive web design and static first principles alongside preprocessors Babel and PostCSS enable the site to work well across devices and browser versions while achieving resilience.
 
-New versions of this site are automatically tested and deployed on commit.
-
-Strapi api is utilized to separate content and code development.
+New versions of this site's code are automajically tested and deployed on git commit. Updates to API data also sends a hook for Netifly to refresh new or updated pages.

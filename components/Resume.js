@@ -9,18 +9,10 @@ export default function Resume() {
      <li>
       <h2>CODE</h2>
      </li>
-     <li>
-      <i className="fab fa-html5"></i> HTML
-     </li>
-     <li>
-      <i className="fab fa-css3"></i> CSS
-     </li>
-     <li>
-      <i className="fab fa-js"></i> JavaScript
-     </li>
-     <li>
-      <i className=""></i>React
-     </li>
+     <li>HTML</li>
+     <li>CSS</li>
+     <li>JavaScript</li>
+     <li>React</li>
     </ul>
    </div>
    <div className="card">
@@ -28,18 +20,10 @@ export default function Resume() {
      <li>
       <h2>TOOLS</h2>
      </li>
-     <li>
-      <i className="fab fa-git"></i>Git
-     </li>
-     <li>
-      <i className="fab fa-windows"></i>VSCode
-     </li>
-     <li>
-      <i className=""></i>Linux
-     </li>
-     <li>
-      <i className=""></i>CLI
-     </li>
+     <li>Git</li>
+     <li>VSCode</li>
+     <li>Linux</li>
+     <li>CLI</li>
      {/* <li>
                     <i className="fab fa-docker"></i> Docker
                 </li>
@@ -53,12 +37,8 @@ export default function Resume() {
      <li>
       <h2>SKILLS</h2>
      </li>
-     <li>
-      <i className="fas fa-project-diagram"></i>CI/CD
-     </li>
-     <li>
-      <i className="fas fa-server"></i>Cloud
-     </li>
+     <li>CI/CD</li>
+     <li>Cloud</li>
      <li>Design</li>
     </ul>
    </div>
@@ -69,12 +49,12 @@ export default function Resume() {
      </li>
      <li>
       <Link href="https://www.freecodecamp.org/certification/fcc78f3a6da-2bd8-4da7-b6cc-31e4110324b2/responsive-web-design">
-       Responsive Web Design
+       <a>Responsive Web Design</a>
       </Link>
      </li>
      <li>
       <Link href="https://www.freecodecamp.org/certification/fcc78f3a6da-2bd8-4da7-b6cc-31e4110324b2/javascript-algorithms-and-data-structures">
-       JS Data Structures & Algorithms
+       <a>JS Data Structures & Algorithms</a>
       </Link>
      </li>
     </ul>

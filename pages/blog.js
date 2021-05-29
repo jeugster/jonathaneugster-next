@@ -11,7 +11,7 @@ export default function Blog(props) {
  )
 }
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
  const res = await axios.get('http://api.jonathaneugster.com/posts')
  //console.log(res.data)
  return {

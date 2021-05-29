@@ -1,6 +1,5 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.css'
-import '@styles/globals.css'
+import '@styles/tailwind.css'
 import TagManager from 'react-gtm-module'
 import Layout from '@components/Layout'
 import SEO from '@components/SEO'

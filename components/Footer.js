@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
 
+// Main footer component
 const FooterDiv = styled.ul`
  position: fixed;
  display: flex;

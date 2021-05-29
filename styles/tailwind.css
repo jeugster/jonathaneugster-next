@@ -1,0 +1,96 @@
+/* TailwindCSS Imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TailwindCSS Base Styles */
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}
+/* Global */
+body {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color:white;
+}
+
+/* Resume Elements */
+.CV {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ place-content: center;
+ margin: calc(2rem - 0.5vw);
+}
+
+.card {
+ flex: 1 1 10rem;
+ padding: 0.2rem;
+ margin: 0.5vw;
+ background: rgba(255, 255, 255, 0.25);
+ box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);
+ backdrop-filter: blur(1px);
+ border-radius: 10px;
+ border: 1.5px solid rgba(255, 255, 255, 0.18);
+}
+
+.card > ul {
+ padding: 0.5rem;
+}
+
+.card > ul > li > a {
+ text-decoration: underline;
+ font-size: 0.85rem;
+ color: rgb(255, 197, 71);
+}
+
+/* Overlay Animations */
+.overlay {
+ min-width: 150%;
+ min-height: 150%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background: linear-gradient(45deg, yellow, red, blue);
+ background-size: 400% 400%;
+ animation: gradient 40s ease infinite;
+ z-index: -1;
+ filter: saturate(55%);
+}
+
+@keyframes gradient {
+ 15% {
+  background-position: 0% 50%;
+ }
+ 50% {
+  background-position: 100% 50%;
+ }
+ 85% {
+  background-position: 0% 50%;
+ }
+}
+
+/* Nav Elements */
+.header {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-flow: column wrap;
+}
+
+.header li {
+ display: inline;
+ opacity: 80%;
+ padding-right: 0.2rem;
+}
+
+.header h1 {
+ text-shadow: 0 0 2px #000000;
+ opacity: 80%;
+}
