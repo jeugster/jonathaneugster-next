@@ -1,37 +1,79 @@
-import React from 'react'
-import axios from 'axios'
+// import React from 'react'
+// import axios from 'axios'
 
-export default function BlogPage(props) {
- console.log(props)
+// export default function BlogPage(props) {
+//  console.log(props)
+//  return (
+//   <div className="card p-4">
+//    <h1>Title</h1>
+//    <p>Content</p>
+//   </div>
+//  )
+// }
+
+// // blog/slug page generation setup
+// export async function getStaticPaths() {
+//  const res = await fetch('http://api.jonathaneugster.com/posts')
+//  const posts = await res.json()
+//  const paths = posts.map((post) => ({
+//   params: { slug: post.Slug },
+//  }))
+
+//  return {
+//   paths,
+//   fallback: false,
+//  }
+// }
+
+// // Get post props for page generation
+// export async function getStaticProps({ params }) {
+//  const { slug } = params
+//   console.log({ slug })
+//  const res = await fetch('http://api.jonathaneugster.com/posts?Slug=${slug}')
+//  const data = await JSON.parse(JSON.stringify(res))
+//  return {
+//   props: data,
+//  }
+// }
+
+import Link from 'next/link'
+
+export default function Post({ post }) {
  return (
-  <div className="card p-4">
-   <h1>Title</h1>
-   <p>Content</p>
+  <div>
+   <Link href="/">
+    <a>Go Home</a>
+   </Link>
+   <h2>{post.Title}</h2>
+   <p>{post.Content}</p>
   </div>
  )
 }
 
-// blog/slug page generation setup
+// tell next.js how many pages there are
 export async function getStaticPaths() {
- const res = await fetch('http://api.jonathaneugster.com/posts/')
+ const res = await fetch('http://api.jonathaneugster.com/posts')
  const posts = await res.json()
+
  const paths = posts.map((post) => ({
   params: { slug: post.Slug },
  }))
 
  return {
   paths,
-  fallback: false,
+  fallback: true,
  }
 }
 
-// Get post props for page generation
+// for each individual page: get the data for that page
 export async function getStaticProps({ params }) {
  const { slug } = params
- console.log(slug)
- const res = await fetch('http://api.jonathaneugster.com/posts?Slug=${slug}')
- const data = await JSON.parse(JSON.stringify(res))
+
+ const res = await fetch(`http://api.jonathaneugster.com/posts?Slug=${slug}`)
+ const data = await res.json()
+ const post = data[0]
+
  return {
-  props: data,
+  props: { post },
  }
 }
