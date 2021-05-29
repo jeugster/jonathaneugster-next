@@ -14,15 +14,24 @@ export default function ContactForm() {
     <input type="hidden" name="contact" value="contact" />
     <p>
      <label htmlFor="yourname">Name:</label> <br />
-     <input type="text" name="name" id="name" className="w-full" />
+     <input type="text" name="name" id="name" className="w-full form-input" />
     </p>
     <p>
      <label htmlFor="youremail">Email:</label> <br />
-     <input type="email" name="email" id="youremail" className="w-full" />
+     <input
+      type="email"
+      name="email"
+      id="youremail"
+      className="w-full form-input"
+     />
     </p>
     <p>
      <label htmlFor="yourmessage">Message:</label> <br />
-     <textarea name="message" id="yourmessage" className="w-full"></textarea>
+     <textarea
+      name="message"
+      id="yourmessage"
+      className="w-full form-input"
+     ></textarea>
     </p>
     <p>
      <button type="submit" className="border p-3 mt-3">

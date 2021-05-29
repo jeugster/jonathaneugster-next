@@ -11,6 +11,12 @@
   h2 {
     @apply text-xl;
   }
+  a {
+      @apply underline;
+  }
+  a:hover {
+    @apply opacity-75;
+  }
 }
 /* Global */
 body {
