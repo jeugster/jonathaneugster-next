@@ -40,12 +40,12 @@ import Link from 'next/link'
 
 export default function Post({ post }) {
  return (
-  <div className='w-max-prose'>
+  <div className="max-w-prose">
    <Link href="/">
     <a>Go Home</a>
    </Link>
-   <h2 className='text-2xl py-2'>{post.Title}</h2>
-   <p className=''>{post.Content}</p>
+   <h2 className="text-2xl py-2">{post.Title}</h2>
+   <p className="">{post.Content}</p>
    <p className="text-xs opacity-50">Published: {post.published_at}</p>
    <p className="text-xs opacity-50">Updated: {post.updatedAt}</p>
   </div>

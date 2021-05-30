@@ -39,6 +39,7 @@ export default function Resume() {
      </li>
      <li>CI/CD</li>
      <li>Cloud</li>
+     <li>API</li>
      <li>Design</li>
     </ul>
    </div>

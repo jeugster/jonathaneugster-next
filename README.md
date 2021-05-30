@@ -10,4 +10,4 @@ Analytics tags are controlled through Google Tag Manager allowing changes and ad
 
 Responsive web design and static first principles alongside preprocessors Babel and PostCSS enable the site to work well across devices and browser versions while achieving resilience.
 
-New versions of this site's code are automajically tested and deployed on git commit. Updates to API data also sends a hook for Netifly to refresh new or updated pages.
+New versions of this site's code are automajically tested and deployed on git commit. Updates to API data also sends a hook for Netlify to refresh new or updated pages.
