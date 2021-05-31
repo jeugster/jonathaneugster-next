@@ -65,13 +65,14 @@ export async function getStaticProps({ params }) {
  }
 }
 
-export default function Post({ post }) {
-post = {
+const post = {
  Title: '',
  Content: '',
  published_at: '',
  updatedAt: '',
 }
+
+export default function Post({ post }) {
  return (
   <article className="max-w-prose">
    <Link href="/">
