@@ -65,7 +65,7 @@ export async function getStaticProps({ params }) {
  }
 }
 
-export default function Post({ post }) {
+export default function Post({ post = '' }) {
  return (
   <article className="max-w-prose">
    <Link href="/">
