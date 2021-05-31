@@ -42,7 +42,7 @@ import Link from 'next/link'
 export async function getStaticPaths() {
  const res = await fetch('http://api.jonathaneugster.com/posts')
  const posts = await res.json()
- const paths = posts.map((post) => ({
+ const paths = await posts.map((post) => ({
   params: { slug: post.Slug },
  }))
 
@@ -58,18 +58,11 @@ export async function getStaticProps({ params }) {
 
  const res = await fetch(`http://api.jonathaneugster.com/posts?Slug=${slug}`)
  const data = await res.json()
- const post = data[0]
+ const post = await data[0]
 
  return {
-  props: { post },
+  props: { post } || null,
  }
-}
-
-const post = {
- Title: '',
- Content: '',
- published_at: '',
- updatedAt: '',
 }
 
 export default function Post({ post }) {
