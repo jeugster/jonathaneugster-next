@@ -38,19 +38,7 @@
 import ReactMarkdown from 'react-markdown'
 import Link from 'next/link'
 
-export default function Post({ post }) {
- return (
-  <article className="max-w-prose">
-   <Link href="/">
-    <a>Go Home</a>
-   </Link>
-   <h2 className="text-2xl py-2">{post.Title}</h2>
-   <ReactMarkdown className="">{post.Content}</ReactMarkdown>
-   <p className="text-xs opacity-50">Published: {post.published_at}</p>
-   <p className="text-xs opacity-50">Updated: {post.updatedAt}</p>
-  </article>
- )
-}
+
 
 // tell next.js how many pages there are
 export async function getStaticPaths() {
@@ -78,4 +66,18 @@ export async function getStaticProps({ params }) {
  return {
   props: { post },
  }
+}
+
+export default function Post({ post }) {
+ return (
+  <article className="max-w-prose">
+   <Link href="/">
+    <a>Go Home</a>
+   </Link>
+   <h2 className="text-2xl py-2">{post.Title}</h2>
+   <ReactMarkdown className="">{post.Content}</ReactMarkdown>
+   <p className="text-xs opacity-50">Published: {post.published_at}</p>
+   <p className="text-xs opacity-50">Updated: {post.updatedAt}</p>
+  </article>
+ )
 }
