@@ -38,13 +38,10 @@
 import ReactMarkdown from 'react-markdown'
 import Link from 'next/link'
 
-
-
 // tell next.js how many pages there are
 export async function getStaticPaths() {
  const res = await fetch('http://api.jonathaneugster.com/posts')
  const posts = await res.json()
-
  const paths = posts.map((post) => ({
   params: { slug: post.Slug },
  }))
@@ -69,6 +66,12 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ post }) {
+    const post = {
+     Title: '',
+     Content: '',
+     published_at: '',
+     updatedAt: '',
+    }
  return (
   <article className="max-w-prose">
    <Link href="/">
