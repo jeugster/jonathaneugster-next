@@ -3,6 +3,6 @@ module.exports = {
  poweredByHeader: false,
  reactStrictMode: true,
  future: {
-  webpack5: false,
+  webpack5: true,
  },
 }
