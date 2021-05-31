@@ -66,12 +66,12 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ post }) {
-    const post = {
-     Title: '',
-     Content: '',
-     published_at: '',
-     updatedAt: '',
-    }
+post = {
+ Title: '',
+ Content: '',
+ published_at: '',
+ updatedAt: '',
+}
  return (
   <article className="max-w-prose">
    <Link href="/">
