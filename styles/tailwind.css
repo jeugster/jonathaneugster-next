@@ -5,101 +5,104 @@
 
 /* TailwindCSS Base Styles */
 @layer base {
-html {
-  color:rgb(245, 245, 245);
-}
-h1 {
-  @apply text-3xl;
-}
-h2 {
-  @apply text-2xl;
-}
-a {
+  html {
+    color:rgb(245, 245, 245);
+  }
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  a {
     @apply underline;
-}
-a:hover {
-  @apply opacity-75;
-}
-article p {
-  @apply py-2;
-  text-indent: 1em;
-}
-/* Nav Elements */
-.header {
- display: flex;
- justify-content: center;
- align-items: center;
- flex-flow: column wrap;
-}
-.header li {
- display: inline;
- opacity: 80%;
- padding-right: 0.2rem;
-}
-.header h1 {
- text-shadow: 0 0 2px #000000;
- opacity: 80%;
-}
+  }
+  a:hover {
+    @apply opacity-75;
+  }
+  article {
+    @apply bg-gray-500 p-4 max-w-prose opacity-90;
+  }
+  article p {
+    @apply py-2;
+    text-indent: 1em;
+  }
+  /* Nav Elements */
+  .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  }
+  .header li {
+  display: inline;
+  opacity: 80%;
+  padding-right: 0.2rem;
+  }
+  .header h1 {
+  text-shadow: 0 0 2px #000000;
+  opacity: 80%;
+  }
 
-/* Global */
-body {
- display: flex;
- justify-content: center;
- align-items: center;
-}
-.card {
- flex: 1 1 10rem;
- padding: 0.2rem;
- margin: 0.5vw;
- background: rgba(255, 255, 255, 0.25);
- box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);
- backdrop-filter: blur(1px);
- border-radius: 10px;
- border: 1.5px solid rgba(255, 255, 255, 0.18);
-}
+  /* Global */
+  body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .card {
+  flex: 1 1 10rem;
+  padding: 0.2rem;
+  margin: 0.5vw;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+  }
 
-/* Resume Elements */
-.CV {
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- place-content: center;
- margin: calc(2rem - 0.5vw);
-}
+  /* Resume Elements */
+  .CV {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  place-content: center;
+  margin: calc(2rem - 0.5vw);
+  }
 
-.card > ul {
- padding: 0.5rem;
-}
+  .card > ul {
+  padding: 0.5rem;
+  }
 
-.card > ul > li > a {
- text-decoration: underline;
- font-size: 0.85rem;
- color: rgb(255, 197, 71);
-}
+  .card > ul > li > a {
+  text-decoration: underline;
+  font-size: 0.85rem;
+  color: rgb(255, 197, 71);
+  }
 
-/* Overlay Style & Animations */
-.overlay {
- min-width: 150%;
- min-height: 150%;
- position: fixed;
- top: 0;
- left: 0;
- background: linear-gradient(45deg, yellow, red, blue);
- background-size: 400% 400%;
- animation: gradient 40s ease infinite;
- z-index: -1;
- filter: saturate(55%);
-}
+  /* Overlay Style & Animations */
+  .overlay {
+  min-width: 150%;
+  min-height: 150%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, yellow, red, blue);
+  background-size: 400% 400%;
+  animation: gradient 40s ease infinite;
+  z-index: -1;
+  filter: saturate(55%);
+  }
 
-@keyframes gradient {
- 15% {
-  background-position: 0% 50%;
- }
- 50% {
-  background-position: 100% 50%;
- }
- 85% {
-  background-position: 0% 50%;
- }
-}
+  @keyframes gradient {
+  15% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  85% {
+    background-position: 0% 50%;
+  }
+  }
 }

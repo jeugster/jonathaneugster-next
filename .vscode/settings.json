@@ -5,7 +5,7 @@
  "editor.formatOnSave": true,
  "editor.formatOnPaste": true,
  "editor.defaultFormatter": "esbenp.prettier-vscode",
- "css.validate" : false,
+ "css.validate" : true,
  "editor.quickSuggestions": {
      "strings": true
  },
