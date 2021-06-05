@@ -1,5 +1,3 @@
-import React from 'react'
-
 // Contact form
 export default function ContactForm() {
  return (
@@ -9,14 +7,17 @@ export default function ContactForm() {
     action="/success"
     method="POST"
     data-netlify="true"
-    className="flex-col "
+    className="flex-col"
    >
     <input type="hidden" name="contact" value="contact" />
-    <p>
-     <label htmlFor="yourname">Name:</label> <br />
+    <p className="py-2">
+     <label className="" htmlFor="yourname">
+      Name:
+     </label>{' '}
+     <br />
      <input type="text" name="name" id="name" className="w-full form-input" />
     </p>
-    <p>
+    <p className="py-2">
      <label htmlFor="youremail">Email:</label> <br />
      <input
       type="email"
@@ -25,7 +26,7 @@ export default function ContactForm() {
       className="w-full form-input"
      />
     </p>
-    <p>
+    <p className="py-2">
      <label htmlFor="yourmessage">Message:</label> <br />
      <textarea
       name="message"
@@ -33,7 +34,7 @@ export default function ContactForm() {
       className="w-full form-input"
      ></textarea>
     </p>
-    <p>
+    <p className="mr-auto">
      <button type="submit" className="border p-3 mt-3">
       Send Message
      </button>

@@ -1,10 +1,9 @@
-import React from 'react'
 import ContactForm from '@components/ContactForm'
 
 export default function Contact() {
  return (
-  <>
-   <ContactForm />
-  </>
+  <div className='flex items-center justify-center'>
+         <ContactForm  />
+  </div>
  )
 }
