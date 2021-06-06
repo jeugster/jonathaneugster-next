@@ -20,13 +20,16 @@
   a:hover {
     @apply opacity-75;
   }
+
+  /* Post Elements */
   article {
-    @apply bg-gray-500 p-4 max-w-prose opacity-90;
+    @apply bg-gray-500 max-w-prose opacity-90;
   }
   article p {
-    @apply py-2;
+    @apply py-1;
     text-indent: 1em;
   }
+
   /* Nav Elements */
   .header {
   display: flex;
@@ -69,16 +72,35 @@
   place-content: center;
   margin: calc(2rem - 0.5vw);
   }
-
   .card > ul {
   padding: 0.5rem;
   }
-
   .card > ul > li > a {
   text-decoration: underline;
   font-size: 0.85rem;
   color: rgb(255, 197, 71);
   }
+
+  /* Footer */
+ .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0.25rem 0.25rem;
+  background: blue;
+  background-blend-mode: exclusion;
+  opacity: 0.5;
+  z-index: 0;
+  font-size: 0.85rem;
+  a {
+    text-decoration: underline;
+    margin: 0.25rem;
+  }
+  ul {
+    list-style: none;
+  }
+}
+
 
   /* Overlay Style & Animations */
   .overlay {
@@ -93,7 +115,7 @@
   z-index: -1;
   filter: saturate(55%);
   }
-
+  
   @keyframes gradient {
   15% {
     background-position: 0% 50%;

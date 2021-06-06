@@ -3,7 +3,7 @@ import Link from 'next/link'
 // Main navigation component
 export default function Nav() {
  return (
-  <div className="header m-4">
+  <div className="header m-4 mb-6">
    <Link href="/">
     <h1 className="text-3xl font-bold">Jonathan Eugster / Web.Dev</h1>
    </Link>

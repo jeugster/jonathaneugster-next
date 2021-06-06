@@ -7,15 +7,19 @@ export default function Posts(props) {
   <>
    {props.posts &&
     props.posts.map((post) => (
-     <article className="max-w-prose m-4 p-4" key={post.id}>
-      <h2 className="text-2xl py-2 font-medium">{post.Title}</h2>
-      <p className="p-2">
-       <ReactMarkdown className="">{post.Content}</ReactMarkdown>
-      </p>
-      <Link href={`/blog/${post.Slug}`}>
-       <a>Read More</a>
-      </Link>
-     </article>
+     <div className="bg-gray-500 p-3">
+      <article className="max-w-prose" key={post.id}>
+       <h2 className="text-2xl font-medium">{post.Title}</h2>
+       <p className="p-2">
+        <ReactMarkdown className="">{post.Content}</ReactMarkdown>
+       </p>
+      </article>
+      <div className="p-2">
+       <Link href={`/blog/${post.Slug}`}>
+        <a>Read More</a>
+       </Link>
+      </div>
+     </div>
     ))}
   </>
  )

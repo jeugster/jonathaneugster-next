@@ -29,20 +29,28 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ post = '' }) {
+
  return (
-  <article className="">
-   <h2 className="text-2xl py-2">{post.Title}</h2>
-   <ReactMarkdown className="">{post.Content}</ReactMarkdown>
-   <p className="p-0 text-xs opacity-50">Published: {post.published_at}</p>
-   <br></br>
-   <p className="p-0 text-xs opacity-50">Updated: {post.updatedAt}</p>
-   <br></br>
-   <Link href="/">
-    <a className="pr-1">/home</a>
-   </Link>
-   <Link href="/blog">
-    <a>/blog</a>
-   </Link>
-  </article>
+  <div className="bg-gray-500 p-3">
+   <article className="">
+    <h2 className="text-2xl font-medium">{post.Title}</h2>
+    <p className="p-2">
+     <ReactMarkdown className="">{post.Content}</ReactMarkdown>
+    </p>
+   </article>
+   <div className="p-2">
+    <p className=" text-xs opacity-50">Published: {post.published_at}</p>
+    <p className=" text-xs opacity-50">Updated: {post.updatedAt}</p>
+    <Link href="/">
+     <a className="">/home</a>
+    </Link>
+    <Link href="/blog">
+     <a>/blog</a>
+    </Link>
+    <Link href={`${post.Slug}`}>
+          <a>{`/${post.Slug}`}</a>
+    </Link>
+   </div>
+  </div>
  )
 }
