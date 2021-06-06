@@ -23,8 +23,8 @@ export default function Nav() {
      </Link>
     </li>
     <li>
-     <Link href="/blog">
-      <a>blog</a>
+     <Link href="/posts">
+      <a>posts</a>
      </Link>
     </li>
    </ul>

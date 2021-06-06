@@ -44,8 +44,8 @@ export default function Post({ post = '' }) {
     <Link href="/">
      <a className="">/home</a>
     </Link>
-    <Link href="/blog">
-     <a>/blog</a>
+    <Link href="/posts">
+     <a>/posts</a>
     </Link>
     <Link href={`${post.Slug}`}>
           <a>{`/${post.Slug}`}</a>

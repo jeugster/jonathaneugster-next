@@ -1,10 +1,10 @@
 import axios from 'axios'
-import Posts from '@components/Posts'
+import PostList from '@components/PostList'
 
-export default function Blog(props) {
+export default function Posts(props) {
  return (
   <>
-   <Posts posts={props.posts} />
+   <PostList posts={props.posts} />
   </>
  )
 }

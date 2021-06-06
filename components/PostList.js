@@ -2,7 +2,7 @@ import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 
 // Returns posts
-export default function Posts(props) {
+export default function PostList(props) {
  return (
   <>
    {props.posts &&
@@ -15,7 +15,7 @@ export default function Posts(props) {
        </p>
       </article>
       <div className="p-2">
-       <Link href={`/blog/${post.Slug}`}>
+       <Link href={`/posts/${post.Slug}`}>
         <a>Read More</a>
        </Link>
       </div>
