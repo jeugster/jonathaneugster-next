@@ -6,7 +6,7 @@ export async function getStaticPaths() {
  const res = await fetch('http://api.jonathaneugster.com/posts')
  const posts = await res.json()
  const paths = await posts.map((post) => ({
-  params: { slug: post.Slug },
+  params: { slug: post.slug },
  }))
 
  return {
@@ -29,7 +29,7 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ post = '' }) {
-
+ console.log(post)
  return (
   <div className="bg-gray-500 p-3">
    <article className="">
@@ -47,8 +47,8 @@ export default function Post({ post = '' }) {
     <Link href="/posts">
      <a>/posts</a>
     </Link>
-    <Link href={`${post.Slug}`}>
-          <a>{`/${post.Slug}`}</a>
+    <Link href={`${post.slug}`}>
+     <a>{`/${post.slug}`}</a>
     </Link>
    </div>
   </div>
