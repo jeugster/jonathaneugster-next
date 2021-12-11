@@ -1,6 +1,6 @@
 # Next Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ed50f56e-4fc2-4c98-8b66-1e5074c6f3d3/deploy-status)](https://app.netlify.com/sites/next-starter/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dca552e4-6cf5-457d-842e-8f5271b27e0c/deploy-status)](https://app.netlify.com/sites/infallible-wing-a98fca/deploys)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 This is a [Next.js](https://nextjs.org/) project hosted on Netlify, Mongodb Atlas, and Heroku. Styling for React is Tailwind.
