@@ -15,7 +15,7 @@ export default function ContactForm() {
                         Name:
      </label>{' '}
                     <br />
-                    <input type="text" name="name" id="name" className="w-full form-input" />
+                    <input type="text" name="name" id="name" className="w-full form-input text-black" />
                 </p>
                 <p className="py-2">
                     <label htmlFor="youremail">Email:</label> <br />
@@ -23,7 +23,7 @@ export default function ContactForm() {
                         type="email"
                         name="email"
                         id="youremail"
-                        className="w-full form-input"
+                        className="w-full form-input text-black"
                     />
                 </p>
                 <p className="py-2">
@@ -31,7 +31,7 @@ export default function ContactForm() {
                     <textarea
                         name="message"
                         id="yourmessage"
-                        className="w-full form-input"
+                        className="w-full form-input text-black"
                     ></textarea>
                 </p>
                 <p className="mr-auto">
