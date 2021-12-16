@@ -40,13 +40,13 @@ export default function Post({ post = '' }) {
             <div className="p-2">
                 <p className=" text-xs opacity-50">Published: {post.published_at}</p>
                 <p className=" text-xs opacity-50">Updated: {post.updatedAt}</p>
-                <Link href="/">
+                <Link href="/" passHref="true">
                     <a className="">/home</a>
                 </Link>
-                <Link href="/posts">
+                <Link href="/posts" passHref="true">
                     <a>/posts</a>
                 </Link>
-                <Link href={`${post.Slug}`}>
+                <Link href={`${post.Slug}`} passHref="true">
                     <a>{`/${post.Slug}`}</a>
                 </Link>
             </div>

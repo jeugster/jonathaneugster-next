@@ -14,11 +14,11 @@ export default function PostList(props) {
                 <ReactMarkdown className="">{post.Content}</ReactMarkdown>
               </p>
             </article>
-            <div className="p-2">
+            {/* <div className="p-2">
               <Link href={`/posts/${post.Slug}`}>
                 <a>Read More</a>
               </Link>
-            </div>
+            </div> */}
           </div>
         ))}
     </>
