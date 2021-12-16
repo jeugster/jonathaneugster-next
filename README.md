@@ -5,7 +5,7 @@
 
 This is a [Next.js](https://nextjs.org/) project hosted on Netlify, Mongodb Atlas, and Strapi on Heroku. Styling for React is Tailwind.
 
-Tags are controlled through Google Tag Manager allowing changes and additions to third party scripts without outside the repo.
+Analytics tags are controlled through Google Tag Manager.
 
 Site works well across devices and browser versions with resilience and performance.
 
