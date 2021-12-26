@@ -9,4 +9,4 @@ Analytics tags are controlled through Google Tag Manager.
 
 Site works well across devices and browser versions with resilience and performance.
 
-Updates to API "posts" data send a hook for Netlify to refresh new or updated pages.
+Updates to API data in Strapi send a hook for Netlify to rebuild Next to generate static files for new and updated pages.
