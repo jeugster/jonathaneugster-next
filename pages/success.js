@@ -1,5 +1,3 @@
-import styled from 'styled-components'
-
 export default function Success() {
  const Success = styled.div`
   margin: 10rem auto;
@@ -13,8 +11,8 @@ export default function Success() {
  `
 
  return (
-  <Success>
-   <Mark>Form successfully submitted!</Mark>
-  </Success>
+  <>
+   <p>Form successfully submitted!</p>
+  </>
  )
 }
