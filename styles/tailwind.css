@@ -116,6 +116,7 @@
   filter: saturate(55%);
   }
   
+  /* Background Animation */
   @keyframes gradient {
   15% {
     background-position: 0% 50%;
@@ -127,4 +128,19 @@
     background-position: 0% 50%;
   }
   }
+
+  /* Contact Success Page */
+  .contact-success {
+    padding: 1rem;
+
+  }
+
+  .contact-success-div {
+    margin: 10rem auto;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    opacity: 80%;
+  }
+
 }
