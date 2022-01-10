@@ -9,7 +9,7 @@ Site is entirely static, open-source, and source controlled.
 
 The stack allows non-technical team members to utilize tools they already know, like a CMS, or Google Tags, while allowing developers to alter any aspect of the application.
 
-Site is responsive and works well across devices/browsers with resilience and performance.
+Site is responsive and works well across devices/browsers with resilience and high performance.
 
 Updates to Strapi data triggers generation of static files for new and updated components.
 
