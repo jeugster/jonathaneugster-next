@@ -24,7 +24,7 @@
         "autoprefixer": "10.4.7",
         "axios": "0.27.2",
         "next": "latest",
-        "npm": "8.11.0",
+        "npm": "8.12.0",
         "react": "18.1.0",
         "react-dom": "18.1.0",
         "react-gtm-module": "2.0.11",
