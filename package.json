@@ -21,7 +21,7 @@
         "@tailwindcss/line-clamp": "0.4.0",
         "@tailwindcss/typography": "0.5.4",
         "apollo-client": "2.6.10",
-        "autoprefixer": "10.4.7",
+        "autoprefixer": "10.4.8",
         "axios": "0.27.2",
         "next": "latest",
         "npm": "8.15.1",
